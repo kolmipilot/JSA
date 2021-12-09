@@ -1,11 +1,17 @@
 function parzysta()
 {
-    var liczba=document.getElementById("pole").value;
+    var liczba1=document.getElementById("pole").value;
+    var liczba2=document.getElementById("pole2").value;
+        
+    var tresc;
+    tresc=""
+      for(i=liczba1; i<=liczba2; i++)
+      {
+            
+            tresc=tresc+" "+i+" ";
 
-        if(liczba % 2 == 0)
-        { document.getElementById("tresc").innerHTML="parzysta";}
-        else {document.getElementById("tresc").innerHTML="nie parzysta";}
+      }
 
-      
+      document.getElementById("tresc").innerHTML=tresc;
 
 }
