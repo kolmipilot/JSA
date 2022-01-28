@@ -1,6 +1,7 @@
+//this script prints the numbers from the first to the last given
 function parzysta()
 {
-    var liczba1=document.getElementById("pole").value;
+    var liczba1=document.getElementById("pole").value;//
     var liczba2=document.getElementById("pole2").value;
         
     var tresc;

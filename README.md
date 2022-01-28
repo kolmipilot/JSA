@@ -10,3 +10,6 @@ Projekt zawiera wystylizowaną w css strone z dwoma oknami do wpisania danych i 
 
 
 Projekt można wykorzystać na prywatnych i komercyjnych stronach jednak proszę podlinkować te repozytorium.
+
+np.
+//this website was modeled on github.com/kolmipilot/JSA
